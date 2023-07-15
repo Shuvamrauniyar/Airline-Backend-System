@@ -36,18 +36,15 @@
 ### AUTHENTICATION SERVICE:
 
 - User can signup to the application using unique email and password.
-
-![image](https://user-images.githubusercontent.com/96899142/236890774-62163114-03dd-416a-be59-4bfcf25ff142.png)
-
-
-- If email already exists in the database then user will get error message as shown in picture below:
- 
-![image](https://user-images.githubusercontent.com/96899142/236890856-1f68cf2a-44cd-4992-a300-49856507dd12.png)
+- - If email already exists in the database then user will get error message as shown in picture below:
+  - 
+![image](https://github.com/Shuvamrauniyar/Airline-Backend-System/assets/96899142/9e90f04a-7518-4278-aa2b-bf190aca06e8)
 
 
 - After the user has registered to the application, user data will be stored in users table in MySQL DB like as shown in picture below:
 
-![image](https://user-images.githubusercontent.com/96899142/236890906-408bed8f-eaca-4b42-9d44-a6ecb4201e6b.png)
+![image](https://github.com/Shuvamrauniyar/Airline-Backend-System/assets/96899142/d2d18d9a-bcae-4e0c-b26a-84e32574a3ee)
+
 
 
 - You can see that password are encrypted and then stored in database. We used hook to encrypt the password before every user creation . We are encrypting the password using bcrypt.
